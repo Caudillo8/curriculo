@@ -6,16 +6,5 @@ h2{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin: auto;
-    background-color: bisque;
-}
-section{
-    border: solid blue;
-    box-sizing:content-box;
-    height: fit-content;
-    width: 600px;
-    padding: 1%;
-    background-color: white;
-}
-ul, li, h2, img{
     background-color: white;
 }
