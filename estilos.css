@@ -1,0 +1,22 @@
+h2{
+    font-family: 'Bebas Neue', cursive;
+}
+*{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: left;
+    background-color: blueviolet;
+    font-size: x-large;
+}
+.contenedor_foto_perfil{
+    position: absolute;
+    display: block;
+    left: 70%;
+    width: 200px;
+    height: 200px;
+    background-image: url(image/fotoPerfil.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
