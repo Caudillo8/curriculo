@@ -1,13 +1,16 @@
 h2{
     font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
 }
 *{
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Annapurna SIL", serif;
+    font-weight: 700;
+    font-style: normal; 
     font-weight: bold;
     margin: left;
-    background-color: blueviolet;
-    font-size: x-large;
+    background-color: rgb(46, 35, 56);
+    font-size: 25px;
+    color:white;
 }
 .contenedor_foto_perfil{
     position: absolute;
@@ -19,4 +22,7 @@ h2{
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
+}
+li{
+    padding: 10px;
 }
