@@ -1,31 +1,30 @@
-h2{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-}
-*{
-    font-family: "Annapurna SIL", serif;
-    font-weight: 700;
-    font-style: normal; 
-    font-weight: bold;
-    margin: left;
-    background-color: rgb(46, 35, 56);
-    font-size: 25px;
-    color:white;
-}
-.contenedor_foto_perfil{
-    position: absolute;
+.margen{
+    width: 400px;
+    height: max-content;
+    border-color: black;
+    background-color: gray;
     display: block;
-    left: 70%;
-    width: 200px;
-    height: 200px;
-    background-image: url(image/fotoPerfil.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 50%;
+    align-content: center;
+    padding: 20px;
+    font-family: "Cutive Mono", monospace;
+    font-weight: bold;
+    font-size: 20px; 
 }
-li{
-    padding: 10px;
+.contenido{
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    float: right;
+    padding-left: 10px;
+    font-family: "atma";
+    font-size: 20px;   
 }
-a{
-    text-decoration: none;
+.contenedor{
+    display: flex;
+    padding: 0px;
+}
+img{
+    border-radius: 50px 5px;
+    width: 380px;
+    height: 300px;
 }
