@@ -58,3 +58,19 @@ a {
 .programador {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+button {
+  padding: 5px;
+  background-color: rgb(161, 201, 214);
+  border-radius: 35px 35px;
+}
+button :hover {
+  background-color: #39ff14;
+}
+button a {
+  color: red;
+}
+.imgGit {
+  width: 100px;
+  height: 100px;
+  border-color: black;
+}
