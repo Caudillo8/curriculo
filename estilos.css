@@ -52,3 +52,9 @@ img {
 a {
   text-decoration: none;
 }
+.nombre {
+  background-color: rgb(238, 214, 214);
+}
+.programador {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
