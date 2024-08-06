@@ -2,12 +2,10 @@ const texto = document.getElementById("automatic");
 const maquina = (text = "", tiempo = 200, etiqueta = "") => {
   let cantidad = text.split("");
   let cant = cantidad.length;
-  alert(cant);
   etiqueta.innerHTML = "";
   let cont = 0;
   let escribir = setInterval(function () {
     etiqueta.innerHTML += cantidad[cont];
-    console.log(cont);
     if (cont === cant - 1) {
       clearInterval(escribir);
     } else {
