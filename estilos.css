@@ -2,18 +2,6 @@
   width: 400px;
   height: max-content;
   border-color: none;
-  /*background: #bdc3c7; /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  /*background: linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   display: block;
   align-content: center;
   padding: 20px;
@@ -23,17 +11,6 @@
 }
 .contenido {
   width: 800px;
-  /*background: #009fff; 
-  /*background: -webkit-linear-gradient(
-    to right,
-    #ec2f4b,
-    #009fff
-  ); 
-  background: linear-gradient(
-    to right,
-    #ec2f4b,
-    #009fff
-  ); */
   color: black;
   float: right;
   padding-left: 10px;
@@ -73,4 +50,22 @@ button a {
   width: 100px;
   height: 100px;
   border-color: black;
+}
+ul {
+  list-style: none;
+}
+.cont_auto {
+  position: relative;
+  height: 250px;
+  width: 400px;
+}
+.contactos {
+  position: inherit;
+  bottom: 20px;
+  width: 400px;
+  display: flexbox;
+}
+.contactos h3 {
+  font-weight: bold;
+  font: italic;
 }
