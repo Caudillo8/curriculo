@@ -39,13 +39,24 @@ button {
   padding: 5px;
   background-color: rgb(161, 201, 214);
   border-radius: 35px 35px;
-}
-button :hover {
-  background-color: #39ff14;
+  color: black;
+  cursor: pointer;
 }
 button a {
-  color: red;
+  text-decoration: none;
+  color: black;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
+button:hover {
+  background-color: #39ff14;
+  transform: scale(1.1);
+}
+button:hover a {
+  color: yellow;
+}
+
 .imgGit {
   width: 100px;
   height: 100px;
@@ -68,4 +79,7 @@ ul {
 .contactos h3 {
   font-weight: bold;
   font: italic;
+}
+.contactos a {
+  color: orange;
 }
