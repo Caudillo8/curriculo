@@ -19,3 +19,6 @@ maquina(
   40,
   texto
 );
+const emoji = String.fromCodePoint(0x1f60e);
+const emojiContainer = document.getElementById("emoji");
+emojiContainer.innerHTML += emoji;
