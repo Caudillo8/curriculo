@@ -56,12 +56,22 @@
   background: url("../MisImagenes/portada.png"); /*..=salgo de la carpeta css*/
   background-size: cover;
 }
-/*img {
+#miFoto {
+  animation-name: animar;
+  animation-duration: 2s;
+}
+@keyframes animar {
+  0% {
+    transform: scale(0.3);
+    border: solid 3px tomato;
+    border-radius: 0%;
+  }
+}
+img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}*/
-
+}
 a {
   text-decoration: none;
 }
@@ -84,6 +94,7 @@ button {
   border-radius: 10px 10px;
   color: black;
   cursor: pointer;
+  transition: background-color 0.5s ease;
 }
 button a {
   text-decoration: none;
@@ -99,6 +110,11 @@ button:hover {
 }
 button:hover a {
   color: yellow;
+}
+button:active {
+  background-color: red;
+  color: white;
+  transform: scale(1);
 }
 
 .imgGit {
