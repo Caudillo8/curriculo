@@ -19,7 +19,7 @@ maquina(
     " " +
     emoji +
     " " +
-    "Actualmente curso la Tecnicatura en Programación en la UTN. Me resta 1 materia (metodología de sistemas) para finalizar. Trabajo como personal administrativo en el Ministerio de Seguridad de la Provincia de Buenos Aires. Estoy buscando posiciones en las cuales desarrollar los conocimientos adquiridos en la carrera.",
+    "Técnico Universitario en Programación, egresado de la Universidad Tecnológica Nacional Facultad regional Haedo. Trabajo como personal administrativo en el Ministerio de Seguridad de la Provincia de Buenos Aires. Estoy buscando posiciones en las cuales desarrollar los conocimientos adquiridos en la carrera.",
   40,
   texto
 );
