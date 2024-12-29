@@ -7,6 +7,11 @@
 .container-fluid {
   background-color: #e4d7d7;
 }
+
+.programador {
+  margin-left: 50px;
+  animation: cambioColor 2s infinite alternate;
+}
 .nombre {
   position: fixed;
   display: block;
@@ -127,6 +132,20 @@ ul {
 }
 .pie h3 {
   text-align: center;
+}
+@keyframes cambioColor {
+  0% {
+    color: #ff0000;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000,
+      0 0 20px #ff0000, 0 0 25px #ff0000;
+  }
+  100% {
+    color: #47d623c9;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0 0 5px #47d623c9, 0 0 10px #47d623c9, 0 0 15px #47d623c9,
+      0 0 20px #47d623c9, 0 0 25px #47d623c9;
+  }
 }
 /*------------------------responsive*/
 @media (max-width: 630px) {

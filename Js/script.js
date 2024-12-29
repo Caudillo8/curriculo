@@ -26,3 +26,11 @@ maquina(
 
 /*const emojiContainer = document.getElementById("emoji");
 emojiContainer.innerHTML += emoji;*/
+
+/*EDAD AUTOMÁTICA*/
+function calcularEdad(anioNacimiento) {
+  const anioActual = new Date().getFullYear();
+  const edad = anioActual - anioNacimiento;
+  return edad;
+}
+document.getElementById("edad").innerText = calcularEdad(1982);
