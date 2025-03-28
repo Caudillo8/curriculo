@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Cutive+Mono&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 .container-fluid {
   background-color: #e4d7d7;
 }
@@ -48,7 +48,10 @@
   position: relative;
   height: 250px;
   width: 400px;
-  font-family: "Courier Prime", monospace;
+  /*font-family: "Courier Prime", monospace;*/
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 .datos_personales {
   position: inherit;
