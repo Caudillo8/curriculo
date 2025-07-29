@@ -8,8 +8,8 @@
   background-color: #e4d7d7;
 }
 .LogoUtn {
-  width: 150px; /**/
-  height: 100px;
+  width: 350px;
+  height: 140px;
   object-fit: contain;
   margin-left: 10px;
 }
@@ -34,6 +34,8 @@
 .contenido {
   text-align: center;
   margin-left: 0%;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
 }
 
 .fila_2 {
@@ -48,7 +50,6 @@
   position: relative;
   height: 250px;
   width: 400px;
-  /*font-family: "Courier Prime", monospace;*/
   font-family: "Space Mono", monospace;
   font-weight: 400;
   font-style: normal;
@@ -61,12 +62,11 @@
 .foto {
   margin-top: 10px;
   margin-left: 50px;
-  /*box-shadow: 0px 0px 6px #796e6e;*/
   box-shadow: inset 0 3px 4px rgba(24, 23, 23, 0.3);
-  border-radius: 50%;
+  border-radius: 10%;
   width: 280px;
   height: 225px;
-  background: url("../MisImagenes/portada.png"); /*..=salgo de la carpeta css*/
+  background: url("../MisImagenes/portada.png");
   background-size: cover;
 }
 #miFoto {
@@ -103,26 +103,26 @@ a {
 }
 button {
   padding: 5px 7px;
-  background-color: rgb(161, 201, 214);
+  background-color: #3483fa;
   border-radius: 10px 10px;
-  color: black;
+  color: white;
   cursor: pointer;
   transition: background-color 0.5s ease;
 }
 button a {
   text-decoration: none;
-  color: black;
+  color: white;
   display: block;
   height: 100%;
   width: 100%;
 }
 button:hover {
   transition: 300ms;
-  background-color: #39ff14;
+  color: white;
   transform: scale(1.1);
 }
 button:hover a {
-  color: yellow;
+  color: white;
 }
 button:active {
   background-color: red;
